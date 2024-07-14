@@ -1,0 +1,3 @@
+[submodule "build-your-own-x"]
+	path = build-your-own-x
+	url = https://github.com/codecrafters-io/build-your-own-x
