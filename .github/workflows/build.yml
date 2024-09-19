@@ -16,14 +16,16 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0 # Shallow clones should be disabled for better analysis relevance
-          
+
      defaults:
         run:
         working-directory: ./myap
 
       - name: Install Dependencies
         run: npm install --legacy-peer-deps
-
+       defaults:
+      run:
+        working-directory: ./myap
       - name: Run Tests
         run: npm test
 
