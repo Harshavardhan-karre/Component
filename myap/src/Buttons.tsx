@@ -92,7 +92,7 @@ const children = (
       control={<Checkbox checked={checked[0]} onChange={handleChange2} />}
     />
     <FormControlLabel
-      label="Child 2"
+      label="Child 20"
       control={<Checkbox checked={checked[1]} onChange={handleChange3} />}
     />
   </Box>

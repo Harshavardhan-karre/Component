@@ -1,9 +1,8 @@
-import { Button } from "@mui/material";
 import React from "react";
 import Buttons from "./Buttons.tsx";
-// import Homepage from './pages/Homepage.tsx';
+import Sum from './Sum.tsx';
 export default function App() {
   return <div>
-    <Buttons/>
+    <Sum/>
   </div>;
 }
