@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { act } from 'react'; // Use act from react
+import { act } from 'react';
 import Hello from './Hello';
 import React from 'react';
 
