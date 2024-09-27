@@ -17,31 +17,29 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --coverage",
+    "test": "jest --coverage",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
-"jest": {
-  "collectCoverageFrom": [
-    "src/**/*.{js,jsx,ts,tsx}",
-    "!src/reportWebVitals.js",
-    "!src/setupTests.js",
-    "!src/components/**/*.stories.tsx",
-    "!src/**/index.js",
-    "!src/**/App.js",
-    "!src/constants/**",
-    "!src/themes/**",
-    "!src/pages/**",
-    "!src/utils/**",
-    "!src/constants/**",
-    "!src/components/templates/**",
-    "!src/components/molecules/RowTab/**",
-    "!src/components/organisms/Row/**"
-  ]
-},
-
-  
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/reportWebVitals.js",
+      "!src/setupTests.js",
+      "!src/components/**/*.stories.tsx",
+      "!src/**/index.js",
+      "!src/**/App.js",
+      "!src/constants/**",
+      "!src/themes/**",
+      "!src/pages/**",
+      "!src/utils/**",
+      "!src/constants/**",
+      "!src/components/templates/**",
+      "!src/components/molecules/RowTab/**",
+      "!src/components/organisms/Row/**"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -72,6 +70,7 @@
     "@storybook/react": "^8.2.9",
     "@storybook/react-webpack5": "^8.2.9",
     "@storybook/test": "^8.2.9",
+    "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
     "@types/jest": "^29.5.13",
