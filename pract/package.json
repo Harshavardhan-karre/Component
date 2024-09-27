@@ -22,6 +22,26 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
+"jest": {
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx,ts,tsx}",
+    "!src/reportWebVitals.js",
+    "!src/setupTests.js",
+    "!src/components/**/*.stories.tsx",
+    "!src/**/index.js",
+    "!src/**/App.js",
+    "!src/constants/**",
+    "!src/themes/**",
+    "!src/pages/**",
+    "!src/utils/**",
+    "!src/constants/**",
+    "!src/components/templates/**",
+    "!src/components/molecules/RowTab/**",
+    "!src/components/organisms/Row/**"
+  ]
+},
+
+  
   "eslintConfig": {
     "extends": [
       "react-app",
